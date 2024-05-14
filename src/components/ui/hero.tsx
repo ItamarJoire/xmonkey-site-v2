@@ -1,6 +1,7 @@
 import Image from "next/image"
 
 import LogoXmonkey from "/public/logo.svg"
+import { GridBackgroundDemo } from "../aceternity/gridBackgroundDemo"
 
 export function Hero(){
   return(
@@ -9,7 +10,7 @@ export function Hero(){
        <Image 
           src={LogoXmonkey} 
           alt="Logo Xmonkey" 
-          className="w-[90px] h-[100px] md:w-[120px] md:h-[110px]"
+          className="w-[150px] h-[160px] md:w-[120px] md:h-[110px]"
         />
 
         <h1 className="typographyH1">Xmonkey</h1>
