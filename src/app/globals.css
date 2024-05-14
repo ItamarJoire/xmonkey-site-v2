@@ -7,10 +7,22 @@ body{
 }
 
 .typographyH1{
-  @apply text-[48px] font-extrabold leading-[50px] text-white text-center lg:text-[80px];
+  @apply text-[64px] font-black leading-[50px] text-white text-center lg:text-[80px];
 }
 
 .typographyH3{
   @apply text-[24px] font-medium text-white/60 text-center;
 }
 
+.effect-blur{
+    z-index: 2;
+    width: 213px;
+    height: 213px;
+    opacity: .39;
+    filter: blur(157px);
+    background-color: #FF7205;
+    border-radius: 100%;
+    position: absolute;
+    bottom: -140px;
+    right: 0;
+}
