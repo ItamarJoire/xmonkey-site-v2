@@ -17,11 +17,33 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      animation: {
+        scroll:
+          "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+      },
+      keyframes: {
+        scroll: {
+          to: {
+            transform: "translate(calc(-50% - 0.5rem))",
+          },
+        },
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        primary: {
+          300: "#FF7205",
+          200: "#FF9405",
+          100: "#FFA122"
+        },
+        secondary: {
+          200: "#0D243E",
+          100: "#0F2844"
+        }
+      }
     },
   },
   plugins: [
@@ -49,7 +71,7 @@ const config: Config = {
       );
     },
   ],
-};
+}
 
 function addVariablesForColors({ addBase, theme }: any) {
   let allColors = flattenColorPalette(theme("colors"));
@@ -59,7 +81,7 @@ function addVariablesForColors({ addBase, theme }: any) {
  
   addBase({
     ":root": newVars,
-  });
+  })
 }
 
 export default config;
