@@ -1,62 +1,36 @@
 "use client"
 
-import { useEffect, useRef, useState } from "react"
-import  VideoPlayerControls  from "./videoPlayControls"
+import Image from "next/image"
+import ImgMockup from "/public/video-image.svg"
+import ImgPlay from "/public/play.svg"
+import { useAppContext } from "@/hooks/useVideo"
+import { VideoPlay } from "./videoPlay"
 
 export function Presentation(){
-  const [isPaused, setIsPaused] = useState(false)
-  const [videoDuration, setVideoDuration] = useState<number>()
-  const [videoProgress, setVideoProgress] = useState<number>(0)
-
-  const videoRef = useRef<HTMLVideoElement>(null)
-
-  useEffect(() => {
-    const video = videoRef.current
-    if(video){
-      setVideoDuration(video.duration)
-    }
-  }, [])
-
-  useEffect(() => {
-    if(isPaused) return
-    const currentTime = videoRef.current?.currentTime
-    if(videoDuration != null && currentTime != null){
-      let loadingTimeout = setTimeout(() => {
-        if(videoProgress == currentTime / videoDuration){
-          setVideoProgress((prev) => prev + 0.000001)
-        }else{
-          setVideoProgress(currentTime / videoDuration)
-        }
-        // setVideoProgress(currentTime / videoDuration)
-      }, 10)
-
-      return () => {
-        clearTimeout(loadingTimeout)
-      }
-    }
-  }, [videoProgress, videoDuration, isPaused])
-
-  const togglePlayPause = () => {
-    const video = videoRef.current
-    if(video){
-      setIsPaused(!video.paused) 
-      video.paused ? video.play() : video.pause()
-    }
-  }
+  const {  isOpen, toggleOpen } = useAppContext()
 
   return(
     <section className="relative w-[90%] max-w-6xl mx-auto my-8 rounded-xl overflow-hidden">
-      <div className="absolute top-4 right-4 z-10">
-        <VideoPlayerControls 
-          progress={videoProgress} 
-          isPaused={isPaused} 
-          onPlayPause={togglePlayPause}
-         
-        />
+      <Image src={ImgMockup} alt=""/>
+      
+      <div className="absolute top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 z-10">
+          <button onClick={() => toggleOpen()} className="bg-white p-7 rounded-full shadow-custom-shadow  hover:shadow-custom-shadow-hover transition duration-300 hover:cursor-pointer">
+            <Image src={ImgPlay} alt="" className="ml-1 w-6 spanHoverEffect"/>
+          </button>
       </div>
-      <video  className="w-full" ref={videoRef} >
-        <source src="/video.mp4"/>
-      </video>
+
+      <style>
+          {`
+            button:hover .spanHoverEffect
+            {
+              transition: 300ms;
+              scale: 110%;
+            }
+          `}
+        </style>
+
+        { isOpen && <VideoPlay />}
     </section>
   )
 }
+
