@@ -7,14 +7,17 @@ import LogoXmonkey from "/public/logo.svg"
 
 export function Assessments() {
   return (
-    <div className="h-[40rem] rounded-md flex flex-col antialiased bg-black  items-center justify-center relative overflow-hidden">
-      <InfiniteMovingCards
-        items={testimonials}
-        direction="left"
-        speed="slow"
+    <section>
+      <h2 className="title-section-2 text-xl text-center">Não somos nós que estamos dizendo. <br />Dá uma conferida nas nossas avaliações:</h2>
+      <div className="h-[25rem] rounded-md flex flex-col antialiased bg-black  items-center justify-center relative overflow-hidden">
+        <InfiniteMovingCards
+          items={testimonials}
+          direction="left"
+          speed="slow"
 
-      />
-    </div>
+        />
+      </div>
+    </section>
   );
 }
 
