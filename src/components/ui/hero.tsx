@@ -2,7 +2,7 @@ import { MovingBorderDemo } from "../aceternity/movingBorderDemo";
 
 export function Hero(){
   return(
-    <main className="relative">
+    <main className="">
       <div className="mt-2 flex flex-col justify-center items-center ">
         <h1 className="typographyH1">Xmonkey</h1>
         <h2 className="uppercase text-sm text-white/90 tracking-widest font-light mt-2">Agência de marketing digital</h2>

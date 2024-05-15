@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { InfiniteMovingCards } from "@/components/aceternity/infiniteMovingCards";
 
-import LogoXmonkey from "/public/logo.svg"
+import LogoXmonkey from "../../../public/logo.svg"
 
 export function Assessments() {
   return (
