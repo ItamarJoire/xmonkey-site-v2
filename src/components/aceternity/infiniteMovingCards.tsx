@@ -106,7 +106,7 @@ export const InfiniteMovingCards = ({
               </span>
               
               <div className="relative z-20 mt-6 flex flex-row items-center">
-                <span className="flex flex-col gap-1">
+                <div className="flex flex-col gap-1">
                   <div className="flex items-center">
                     <svg className="w-5 h-5 text-[#FDB241]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                         <path
@@ -137,13 +137,11 @@ export const InfiniteMovingCards = ({
                   <div className=" flex items-center justify-center gap-2">
                     <Image src={item.img} alt=""  width={30} height={30}/>
                     <div className=" text-sm leading-[1.6] text-gray-400 font-normal">
-                      {item.name}
+                      {item.name}<br /><span className="text-gray-600">{item.title}</span>
                     </div>
                   </div>
-                  <span className=" text-sm leading-[1.6] text-gray-400 font-normal">
-                    {item.title}
-                  </span>
-                </span>
+          
+                </div>
               </div>
             </blockquote>
           </li>
