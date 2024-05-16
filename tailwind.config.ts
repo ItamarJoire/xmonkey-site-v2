@@ -16,6 +16,9 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      sans: ['inter', 'sans-serif'],
+    },
     extend: {
       boxShadow: {
         'custom-shadow': '0 4px 20px rgba(255, 114, 5, 0.3)',
@@ -47,7 +50,7 @@ const config: Config = {
           200: "#0D243E",
           100: "#0F2844"
         }
-      }
+      },
     },
   },
   plugins: [

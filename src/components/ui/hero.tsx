@@ -15,11 +15,15 @@ export function Hero(){
           <MovingBorderDemo />
         </div> */}
 
-        <div className="w-full mx-auto mt-8 hover:opacity-65 transition duration-300">
+        {/* <div className="w-full mx-auto mt-8 hover:opacity-65 transition duration-300">
           <button className="text-white capitalize bg-gradient-to-r from-primary-300 to-primary-100 text-[14px] w-[316px] lg:text-[18px] lg:w-[486px] h-[50px] mx-auto rounded-lg">
             Quero vender mais
           </button>
-        </div>
+        </div> */}
+      </div>
+
+      <div className="mx-auto mt-10 sm:flex sm:items-center sm:space-x-8 text-center rounded-lg">
+        <a href="#" title="" className="inline-flex mx-auto w-full text-center  rounded-lg items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 bg-gradient-to-r from-primary-300 to-primary-100" role="button">Quero vender mais</a>  
       </div>
 
       <div className="effect-blur"></div>

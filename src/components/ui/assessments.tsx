@@ -13,7 +13,7 @@ export function Assessments() {
         <InfiniteMovingCards
           items={testimonials}
           direction="left"
-          speed="slow"
+          speed="normal"
 
         />
       </div>

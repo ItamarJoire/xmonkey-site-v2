@@ -7,7 +7,10 @@ import { Header } from "@/components/ui/header";
 import { Hero } from "@/components/ui/hero";
 import { HowWeWork } from "@/components/ui/howWeWork";
 import { Presentation } from "@/components/ui/presentation";
+import { Range } from "@/components/ui/range";
+import { Services } from "@/components/ui/services";
 import { VideoPlay } from "@/components/ui/videoPlay";
+import { WhyMarketing } from "@/components/ui/whyMarketing";
 import { useAppContext } from "@/hooks/useVideo";
 
 export default function Home() {
@@ -23,8 +26,12 @@ export default function Home() {
       </GridBackgroundDemo>
 
       <Presentation />
+
+      <WhyMarketing />
+      <Services />
       
       <HowWeWork />
+      <Range />
       <Assessments />
       
       <Footer />
