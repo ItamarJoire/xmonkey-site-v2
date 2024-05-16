@@ -1,6 +1,7 @@
 "use client"
 
 import { GridBackgroundDemo } from "@/components/aceternity/gridBackgroundDemo";
+import { About } from "@/components/ui/about";
 import { Assessments } from "@/components/ui/assessments";
 import { Footer } from "@/components/ui/footer";
 import { Header } from "@/components/ui/header";
@@ -33,7 +34,7 @@ export default function Home() {
       <HowWeWork />
       <Range />
       <Assessments />
-      
+      <About />
       <Footer />
     </div>
 
