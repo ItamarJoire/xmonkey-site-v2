@@ -22,7 +22,7 @@ export function Header(){
           { open ?  <X color="#fff" className="size-6 mt-3 mr-3"/>  : <AlignRight color="#fff" className="size-6 mt-3 mr-3"/>}
         </div>
      
-        <div className={`${open ? 'top-[74px]' : 'top-[-148px]'} absolute transition-all z-10 md:z-10 md:pr-4 duration-400 ease-in w-[80%] md:static  md:block md:w-auto text-center`} id="navbar-solid-bg">
+        <div className={`${open ? 'top-[74px]' : 'top-[-148px]'} absolute transition-all z-50 md:z-10 md:pr-4 duration-400 ease-in w-[80%] md:static  md:block md:w-auto text-center`} id="navbar-solid-bg">
           <ul className="flex flex-col font-medium mt-4  md:space-x-8 rounded-b-[40px] rtl:space-x-reverse md:flex-row md:mt-3 md:border-0 md:bg-transparent">
           
         

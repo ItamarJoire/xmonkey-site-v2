@@ -10,7 +10,7 @@ export function Presentation(){
   const {  isOpen, toggleOpen } = useAppContext()
 
   return(
-    <section className="relative w-[90%] max-w-6xl mx-auto my-8 rounded-xl overflow-hidden">
+    <section className="relative w-[90%] max-w-6xl mx-auto my-8 rounded-xl overflow-hidden z-40">
       <Image src={ImgMockup} alt=""/>
       
       <div className="absolute top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 z-10">
