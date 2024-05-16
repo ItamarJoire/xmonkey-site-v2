@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image"
-import ImgMockup from "/public/video-image.svg"
+import ImgMockup from "/public/video-image-2.svg"
 import ImgPlay from "/public/play.svg"
 import { useAppContext } from "@/hooks/useVideo"
 import { VideoPlay } from "./videoPlay"
@@ -14,8 +14,8 @@ export function Presentation(){
       <Image src={ImgMockup} alt=""/>
       
       <div className="absolute top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 z-10">
-          <button onClick={() => toggleOpen()} className="bg-white p-7 rounded-full shadow-custom-shadow  hover:shadow-custom-shadow-hover transition duration-300 hover:cursor-pointer">
-            <Image src={ImgPlay} alt="" className="ml-1 w-6 spanHoverEffect"/>
+          <button onClick={() => toggleOpen()} className="bg-[#1C1D1F] p-4 md:p-7 rounded-full shadow-custom-shadow  hover:shadow-custom-shadow-hover transition duration-300 hover:cursor-pointer">
+            <Image src={ImgPlay} alt="" className="ml-1 w-4 md:w-6 spanHoverEffect"/>
           </button>
       </div>
 

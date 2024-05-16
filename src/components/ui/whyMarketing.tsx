@@ -13,7 +13,7 @@ export function WhyMarketing(){
                     <h1 className="title-section text-center md:text-left">
                         Porque investir em
                         <div className="relative inline-flex">
-                            <span className="absolute inset-x-0 bottom-0 border-b-[30px] border-primary-300"></span>
+                            <span className="absolute inset-x-0 bottom-0 h-8 bg-gradient-to-r from-primary-300 to-primary-100 rounded-sm"></span>
                             <h1 className="relative text-3xl font-bold text-white sm:text-5xl lg:text-6xl">Marketing?</h1>
                         </div>
                     </h1>

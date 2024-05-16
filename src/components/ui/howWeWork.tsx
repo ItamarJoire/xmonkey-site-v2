@@ -4,7 +4,7 @@ export function HowWeWork(){
     <section className="py-10 sm:py-16 lg:py-24">
     <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto text-center">
-            <h2 className="title-section">Como trabalhamos?</h2>
+            <h2 className="title-section">Como <span className="text-gradient">trabalhamos</span></h2>
             <p className="max-w-lg mx-auto mt-4 text-base sm:text-lg leading-relaxed text-gray-400">Nossa equipe é composta por especialistas apaixonados e experientes em diversas áreas do marketing digital, incluindo SEO, SEM, mídias sociais, conteúdo e análise de dados. Utilizamos ferramentas avançadas e as melhores práticas da indústria para implementar campanhas eficazes e alcançar resultados mensuráveis.</p>
         </div>
 

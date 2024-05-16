@@ -9,13 +9,13 @@ export function Footer(){
             <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
                 <div className="flex items-center gap-2">
                   <Image className="w-auto h-9" src={LogoXmonkey} alt="" />
-                  <h1 className="w-auto font-black text-white pt-1">Xmonkey</h1>
+                  <h1 className="w-auto font-bold text-white pt-1">Xmonkey</h1>
                 </div>
 
                 <p className="text-base leading-relaxed text-gray-600 mt-7">Localização</p>
 
                 <ul className="flex items-center space-x-3 mt-9">
-                    <li>
+                    {/* <li>
                         <a href="#" title="" className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600">
                             <svg className="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                                 <path
@@ -23,18 +23,18 @@ export function Footer(){
                                 ></path>
                             </svg>
                         </a>
-                    </li>
+                    </li> */}
 
-                    <li>
+                    {/* <li>
                         <a href="#" title="" className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600">
                             <svg className="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                                 <path d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z"></path>
                             </svg>
                         </a>
-                    </li>
+                    </li> */}
 
                     <li>
-                        <a href="#" title="" className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600">
+                        <a href="#" title="" className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-primary-300 focus:bg-primary-300">
                             <svg className="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                                 <path d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z"></path>
                                 <circle cx="16.806" cy="7.207" r="1.078"></circle>
@@ -45,7 +45,7 @@ export function Footer(){
                         </a>
                     </li>
 
-                    <li>
+                    {/* <li>
                         <a href="#" title="" className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600">
                             <svg className="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                                 <path
@@ -55,12 +55,12 @@ export function Footer(){
                                 ></path>
                             </svg>
                         </a>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
 
             <div>
-                <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">Company</p>
+                <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">Empresa</p>
 
                 <ul className="mt-6 space-y-4">
                     <li>
