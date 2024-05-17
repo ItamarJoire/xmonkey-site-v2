@@ -21,10 +21,10 @@ export function VideoPlay(){
 
   if (!isOpen) return null;
   return(
-    <div className="fixed inset-0 z-50 bg-black/100 overflow-hidden" >
+    <div className="fixed inset-0 z-50 bg-black overflow-hidden" >
       <div className="flex flex-col">
        
-        <video className=" w-full lg:w-[60vw] h-screen  rounded-xl overflow-hidden mx-auto" autoPlay>
+        <video className=" w-full lg:w-[60vw] h-screen  rounded-xl overflow-hidden mx-auto" muted autoPlay>
           <source src="/video.mp4" className="rounded-xl"/>
         </video>
 

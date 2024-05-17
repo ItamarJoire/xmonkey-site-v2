@@ -2,6 +2,9 @@ import Image from 'next/image'
 
 import IconArrowRounded from '/public/arrow-rounded.svg'
 
+import ImgInvestimentCard from "/public/investiment-card-2.svg" 
+import { isMainThread } from 'worker_threads'
+
 export function WhyMarketing(){
   return(
     <div className="bg-black">
@@ -42,7 +45,7 @@ export function WhyMarketing(){
                 </div>
 
                 <div>
-                    <img className="w-full" src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/2/hero-img.png" alt="" />
+                    <Image className="w-full" src={ImgInvestimentCard} alt="" />
                 </div>
             </div>
         </div>
