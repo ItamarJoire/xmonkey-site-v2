@@ -20,6 +20,11 @@ const config: Config = {
       sans: ['inter', 'sans-serif'],
     },
     extend: {
+      addUtilities: {
+        '.no-scroll': {
+          overflow: 'hidden',
+        },
+      },
       boxShadow: {
         'custom-shadow': '0 4px 20px rgba(255, 114, 5, 0.3)',
         'custom-shadow-hover': '0 4px 50px rgba(255, 114, 5, 0.5)'

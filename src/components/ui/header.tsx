@@ -12,7 +12,7 @@ export function Header(){
   const [ open, setOpen ] = useState(false)
 
   return(
-    <nav className="fixed z-50 inset-0 mt-4 border-[1px] border-white/5 bg-[#171719] h-16 w-[80%] mx-auto rounded-[40px]">
+    <nav className="fixed z-40 inset-0 mt-4 border-[1px] border-white/5 bg-[#171719] h-16 w-[80%] mx-auto rounded-[40px]">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between md:justify-evenly lg:justify-between mx-auto ">
         <a href="/" className="pl-4 pt-2 flex items-center space-x-3 rtl:space-x-reverse">
           <Image src={LogoXmonkey} alt="" className="w-9 lg:w-11"/>

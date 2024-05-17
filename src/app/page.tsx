@@ -12,14 +12,14 @@ import { Range } from "@/components/ui/range";
 import { Services } from "@/components/ui/services";
 import { VideoPlay } from "@/components/ui/videoPlay";
 import { WhyMarketing } from "@/components/ui/whyMarketing";
-import { useAppContext } from "@/hooks/useVideo";
+
+import { useAppContext } from "@/hooks/useVideo"
 
 export default function Home() {
-  const { isOpen, toggleOpen } = useAppContext()
- 
+  const { isOpen } = useAppContext()
+
   return (
-   <div>
-    <div>
+   <>
       <Header />
       
       <GridBackgroundDemo>
@@ -36,11 +36,8 @@ export default function Home() {
       <Assessments />
       <About />
       <Footer />
-    </div>
 
-    <div>
-      {/* <VideoPlay /> */}
-    </div>
-  </div>
+      { isOpen && <VideoPlay />}
+  </>
   );
 }
