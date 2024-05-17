@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import IconArrowRounded from '/public/arrow-rounded.svg'
 
-import ImgInvestimentCard from "/public/investiment-card-2.svg" 
+import ImgInvestimentCard from "/public/investiment-card-3.svg" 
 import { isMainThread } from 'worker_threads'
 
 export function WhyMarketing(){
