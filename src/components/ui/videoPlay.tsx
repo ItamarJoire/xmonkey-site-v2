@@ -28,7 +28,7 @@ export function VideoPlay(){
           <source src="/video.mp4" className="rounded-xl"/>
         </video>
 
-        <button onClick={() => toggleOpen()} className="text-white font-bold capitalize bg-gradient-to-r from-primary-300 to-primary-100 text-[14px] w-[316px] lg:text-[18px] lg:w-[486px] h-[50px] mx-auto rounded-lg absolute bottom-36 lg:bottom-12 left-[50%] transform -translate-x-1/2 -translate-y-1/2 hover:opacity-65 transition duration-300">
+        <button onClick={() => toggleOpen()} className="text-white font-bold capitalize bg-gradient-to-r from-primary-300 to-primary-100 text-[14px] w-[316px] lg:text-[18px] lg:w-[486px] h-[50px] mx-auto rounded-lg absolute bottom-36 lg:bottom-8 left-[50%] transform -translate-x-1/2 -translate-y-1/2 hover:opacity-65 transition duration-300">
           Fechar vídeo
         </button>
       </div>
