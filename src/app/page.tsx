@@ -3,6 +3,7 @@
 import { GridBackgroundDemo } from "@/components/aceternity/gridBackgroundDemo";
 import { About } from "@/components/ui/about";
 import { Assessments } from "@/components/ui/assessments";
+import { Brands } from "@/components/ui/brands";
 import { Footer } from "@/components/ui/footer";
 import { Header } from "@/components/ui/header";
 import { Hero } from "@/components/ui/hero";
@@ -34,6 +35,8 @@ export default function Home() {
       <HowWeWork />
       <Range />
       <Assessments />
+      {/* <Brands /> */}
+
       <About />
       <Footer />
 
