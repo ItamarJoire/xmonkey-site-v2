@@ -26,7 +26,7 @@ export function WhyMarketing(){
                     <div className=''>
               <div className='flex items-start mt-8'>
                   <Image src={IconArrowRounded} alt="" className='mr-3'/>
-                  <p className='text-base text-gray-400 sm:text-lg text-left md:text-left max-w-[507px]'>A criação de um , <span className='text-gray-300'>páginas nas redes sociais </span>e <span className='text-gray-300'>anúncios</span> em ferramentas como <span className='text-gray-300'>Facebook Ads</span> e <span className='text-gray-300'>Google Ads</span>, são ótimas formas de aumentar o alcance da sua marca.</p>
+                  <p className='text-base text-gray-400 sm:text-lg text-left md:text-left max-w-[507px]'>A criação de <span className='text-gray-300'>páginas nas redes sociais </span>e <span className='text-gray-300'>anúncios</span> em ferramentas como <span className='text-gray-300'>Facebook Ads</span> e <span className='text-gray-300'>Google Ads</span>, são ótimas formas de aumentar o alcance da sua marca.</p>
               </div>
               <div className='flex items-start mt-8'>
                   <Image src={IconArrowRounded} alt="" className='mr-3'/>
