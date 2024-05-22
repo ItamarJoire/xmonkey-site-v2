@@ -12,11 +12,11 @@ body{
 }
 
 .typographyH2{
-  @apply text-[20px] font-normal text-white/90 text-left leading-6 lg:text-[30px] lg:leading-8;
+  @apply text-[20px] font-normal text-white/90 text-left leading-7 lg:text-[30px] lg:leading-9;
 }
 
 .typographyH3{
-  @apply text-[15px] font-normal text-white/50 text-left leading-6 lg:text-[24px] lg:leading-8;
+  @apply text-[15px] font-normal text-white/50 text-left leading-6 lg:text-[20px] lg:leading-8;
 }
 
 .title-section{
@@ -83,6 +83,32 @@ body{
   left: -390px;
 }
 
+.effect-blur-3{
+  z-index: -50;
+  width: 43px;
+  height: 383px;
+  opacity: .79;
+  filter: blur(67px);
+  background-color: #FF7205;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 1110px;
+  right: 0px;
+}
+
+.effect-blur-4{
+  z-index: -50;
+  width: 393px;
+  height: 183px;
+  opacity: .39;
+  filter: blur(67px);
+  background-color: #FF7205;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 960px;
+  left: -290px;
+}
+
 @media (min-width: 1100px) {
   .effect-blur{
     z-index: -50;
@@ -100,14 +126,40 @@ body{
   .effect-blur-2{
     z-index: -50;
     width: 393px;
-    height: 283px;
+    height: 383px;
     opacity: .49;
     filter: blur(217px);
     background-color: #FF7205;
     border-radius: 100%;
     position: absolute;
     bottom: 480px;
-    left: -590px;
+    left: -90px;
+  }
+
+  .effect-blur-3{
+    z-index: -50;
+    width: 433px;
+    height: 523px;
+    opacity: .89;
+    filter: blur(320px);
+    background-color: #FF7205;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 1110px;
+    right: -600px;
+  }
+  
+  .effect-blur-4{
+    z-index: -50;
+    width: 393px;
+    height: 583px;
+    opacity: .39;
+    filter: blur(167px);
+    background-color: #FF7205;
+    border-radius: 100%;
+    position: absolute;
+    top: 1020px;
+    left: -670px;
   }
 }
 
