@@ -31,14 +31,17 @@ export default function Home() {
       <GridBackgroundDemo>
         <Hero />
       </GridBackgroundDemo>
+     
       <WhyMarketing />
+      <Brands />
       <Services />
       <HowWeWork />
       <Range />
       <Testimonials />
+      
       <Assessments />
       <Differences />
-      {/* <Brands /> */}
+      
       <About />
       <Footer />
 
