@@ -9,7 +9,7 @@ export function WhyMarketing(){
   return(
     <div className="bg-black">
 
-    <section className="py-10 sm:py-16 lg:py-24">
+    <section className="py-10 sm:py-16 lg:py-24 mt-[1000px] lg:mt-[1000px]">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
                 <div>
@@ -39,8 +39,8 @@ export function WhyMarketing(){
             </div>
                     
             <div className="mx-auto mt-10 sm:flex sm:items-center sm:space-x-8 text-center lg:mx-0 lg:text-left rounded-lg">
-        <a href="#" title="" className="inline-flex mx-auto w-full text-center lg:w-[300px] lg:text-left lg:mx-0 lg:ml-8 rounded-lg items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 bg-gradient-to-r from-primary-300 to-primary-100" role="button">Quero vender mais</a>  
-      </div>
+                <a href="#" title="" className="inline-flex mx-auto w-full text-center lg:w-[300px] lg:text-left lg:mx-0 lg:ml-8 rounded-lg items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 bg-gradient-to-r from-primary-300 to-primary-100" role="button">Quero vender mais</a>  
+            </div>
                     
                 </div>
 

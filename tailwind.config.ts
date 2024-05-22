@@ -27,7 +27,8 @@ const config: Config = {
       },
       boxShadow: {
         'custom-shadow': '0 4px 20px rgba(255, 114, 5, 0.3)',
-        'custom-shadow-hover': '0 4px 50px rgba(255, 114, 5, 0.5)'
+        'custom-shadow-hover': '0 4px 50px rgba(255, 114, 5, 0.5)',
+        input: `0px 2px 3px -1px rgba(0,0,0,0.1), 0px 1px 0px 0px rgba(25,28,33,0.02), 0px 0px 0px 1px rgba(25,28,33,0.08)`,
       },
       animation: {
         scroll:
