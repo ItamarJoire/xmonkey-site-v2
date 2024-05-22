@@ -4,6 +4,7 @@ import IconArrowRounded from '/public/arrow-rounded.svg'
 
 import ImgInvestimentCard from "/public/investiment-card-3.svg" 
 import { isMainThread } from 'worker_threads'
+import Link from 'next/link'
 
 export function WhyMarketing(){
   return(
@@ -37,11 +38,13 @@ export function WhyMarketing(){
                   <p className='text-base text-gray-400 sm:text-lg text-left md:text-left max-w-[507px]'>Além disso, você consegue acompanhar os resultados das estratégias do <span className='text-gray-300'>marketing digital</span> em tempo real. Deste modo, é possível analisar e ajustar as campanhas para que os resultados <span className='text-gray-300'>sejam cada vez melhores</span>.</p>
               </div>
             </div>
-                    
-            <div className="mx-auto mt-10 sm:flex sm:items-center sm:space-x-8 text-center lg:mx-0 lg:text-left rounded-lg">
-                <a href="#" title="" className="inline-flex mx-auto w-full text-center lg:w-[300px] lg:text-left lg:mx-0 lg:ml-8 rounded-lg items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 bg-gradient-to-r from-primary-300 to-primary-100" role="button">Quero vender mais</a>  
-            </div>
-                    
+
+            <Link href="#form">   
+                <div className="mx-auto mt-10 sm:flex sm:items-center sm:space-x-8 text-center lg:mx-0 lg:text-left rounded-lg">
+                    <a href="#" title="" className="inline-flex mx-auto w-full text-center lg:w-[300px] lg:text-left lg:mx-0 lg:ml-8 rounded-lg items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 bg-gradient-to-r from-primary-300 to-primary-100 hover:opacity-65" role="button">Quero vender mais</a>  
+                </div>
+            </Link> 
+            
                 </div>
 
                 <div>

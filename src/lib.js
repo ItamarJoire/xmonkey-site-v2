@@ -1,3 +1,10 @@
+export const VideosTestimonial = [
+  { src: '/videos/testimonial-1.mp4' },
+  { src: '/videos/testimonial-2.mp4' },
+  { src: '/videos/testimonial-3.mp4' },
+  { src: '/videos/testimonial-4.mp4' }
+]
+
 export const ImgBrands = [
   { src: '/brands/brand-01.svg', alt: '' },
   { src: '/brands/brand-02.svg', alt: '' },

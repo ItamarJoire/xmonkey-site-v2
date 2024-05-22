@@ -24,7 +24,7 @@ export function Hero(){
           </div>
         </div>
 
-        <div>
+        <div id="form">
           <SendForm />
         </div>
       </div>
@@ -36,7 +36,6 @@ export function Hero(){
       <div className="effect-blur"></div>
       <div className="effect-blur-2"></div>
       <div className="effect-blur-3"></div>
-      <div className="effect-blur-4"></div>
     </main>
   )
 }

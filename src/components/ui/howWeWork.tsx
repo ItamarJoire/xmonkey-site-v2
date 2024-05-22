@@ -1,10 +1,11 @@
+import Link from "next/link";
 
 export function HowWeWork(){
   return(
-    <section className="py-10 sm:py-16 lg:py-24">
+    <section className="py-10 sm:py-16 lg:py-24 ">
     <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto text-center">
-            <h2 className="title-section">Como <span className="text-gradient">trabalhamos</span></h2>
+            <h2 className="title-section text-">Como <span className="text-gradient">trabalhamos</span></h2>
             <p className="max-w-lg mx-auto mt-4 text-base sm:text-lg leading-relaxed text-gray-400">Nossa equipe é composta por especialistas apaixonados e experientes em diversas áreas do marketing digital, incluindo SEO, SEM, mídias sociais, conteúdo e análise de dados. Utilizamos ferramentas avançadas e as melhores práticas da indústria para implementar campanhas eficazes e alcançar resultados mensuráveis.</p>
         </div>
 
@@ -38,9 +39,15 @@ export function HowWeWork(){
                     <p className="mt-4 text-base sm:text-lg text-gray-400">Uma vez que as estratégias são planejadas e aprovadas pelo cliente, procedemos com a implementação meticulosa das campanhas. Monitoramos de perto o desempenho em tempo real, utilizando ferramentas analíticas avançadas para medir métricas-chave e identificar oportunidades de melhoria. A otimização contínua é essencial: ajustamos as estratégias com base nos dados coletados para garantir resultados consistentes e um ROI (retorno sobre investimento) positivo para nossos clientes.</p>
                 </div>
 
-              
+                
             </div>
         </div>
+
+        <Link href="#form">   
+            <div className="mx-auto mt-10 sm:items-center sm:space-x-8 text-center  rounded-lg">
+                <a href="#" title="" className="inline-flex mx-auto w-full text-center lg:w-[300px]  lg:ml-8 rounded-lg items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 bg-gradient-to-r from-primary-300 to-primary-100 hover:opacity-65" role="button">Quero vender mais</a>  
+            </div>
+        </Link> 
     </div>
 </section>
 

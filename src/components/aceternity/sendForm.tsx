@@ -24,7 +24,7 @@ export function SendForm() {
           Vamos vender mais?
         </h2>
         <p className="text-[#0E0E10]/70 text-sm max-w-sm mt-2 lg:text-lg font-medium">
-          Nos diga aqui algumas informações que nos ajudará a ser assertivo quando entrarmos em contato com você.
+          Nos diga aqui algumas informações que nos ajudarão a ser assertivos quando entrarmos em contato com você.
         </p>
 
         <form action="https://api.staticforms.xyz/submit" method="post" className="my-8" onSubmit={handleSubmit}>

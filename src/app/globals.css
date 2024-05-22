@@ -135,21 +135,8 @@ body{
     bottom: 480px;
     left: -90px;
   }
-
-  .effect-blur-3{
-    z-index: -50;
-    width: 433px;
-    height: 523px;
-    opacity: .89;
-    filter: blur(320px);
-    background-color: #FF7205;
-    border-radius: 100%;
-    position: absolute;
-    bottom: 1110px;
-    right: -600px;
-  }
   
-  .effect-blur-4{
+  .effect-blur-3{
     z-index: -50;
     width: 393px;
     height: 583px;
@@ -166,7 +153,7 @@ body{
 /* Estilizando o scrollbar em navegadores baseados em WebKit (como Chrome, Safari, Opera) */
 /* Estilizando a barra de rolagem */
 ::-webkit-scrollbar {
-  width: 12px; /* largura da barra de rolagem */
+  width: 16px; /* largura da barra de rolagem */
 }
 
 /* Estilizando o thumb (a parte arrastável da barra de rolagem) */
