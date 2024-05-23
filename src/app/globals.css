@@ -166,3 +166,10 @@ body{
 ::-webkit-scrollbar-track {
   background-color: #f0f0f0; /* cor da track */
 }
+
+:root{
+  --toastify-color-success: #FF7205;
+  --toastify-color-progress-success: var(--toastify-color-success);
+  --toastify-icon-color-success: var(--toastify-color-success);
+}
+

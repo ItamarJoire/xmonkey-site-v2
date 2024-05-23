@@ -6,14 +6,15 @@ import { cn } from "@/utils/cn";
 
 
 import { toast } from 'react-toastify';
-
+// const handleSubmit = (e: React.FormEvent<HTMLFormElement>)
 export function SendForm() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    toast.success('Mensagem enviada!', {
+    toast.success('🐵 Mensagem enviada!', {
       position: "top-center",
       theme: "dark",
-      
+      icon: false
+    
       });
   };
 
