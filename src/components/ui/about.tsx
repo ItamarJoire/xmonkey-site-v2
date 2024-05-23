@@ -24,7 +24,7 @@ export function About(){
                     
                 </div>
 
-                <div className='[mask:linear-gradient(black,black_75%,transparent)] '>
+                <div className='[mask:linear-gradient(black,black_75%,transparent)]'>
                     <Image className="w-full lg:max-w-[500px]" src={ImgSocios} alt="" />
                 </div>
             </div>
