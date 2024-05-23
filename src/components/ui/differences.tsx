@@ -7,7 +7,7 @@ import Link from "next/link"
 
 export function Differences(){
   return(
-    <section className="bg-[#1C1D1F]/40">
+    <section className="bg-gradient-to-tr from-[#1C1D1F]/40 to-[#1C1D1F]/60">
       <h2 className="text-center py-16 lg:py-28 title-section-2">Alguns diferenciais da Xmonkey</h2>
       <div className=" relative mx-3 space-y-6 lg:space-y-0 lg:flex pt-2 pb-20  lg:pt-8 lg:pb-28">
         <div className="lg:mx-64">
