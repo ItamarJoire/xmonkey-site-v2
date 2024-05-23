@@ -1,6 +1,6 @@
 export function Services(){
   return(
-    <section className="py-12 bg-[#1C1D1F]/40 sm:py-16 lg:py-28">
+    <section className="py-20 bg-[#1C1D1F]/40 sm:py-16 lg:py-32">
     <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="text-center">
             <h2 className="title-section">Nossos <span className="text-gradient">serviços</span></h2>

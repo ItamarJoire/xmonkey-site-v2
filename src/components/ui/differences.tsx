@@ -8,8 +8,8 @@ import Link from "next/link"
 export function Differences(){
   return(
     <section className="bg-[#1C1D1F]/40">
-      <h2 className="text-center py-8 lg:py-12 title-section-2">Alguns diferenciais da Xmonkey</h2>
-      <div className=" relative mx-3 space-y-6 lg:space-y-0 lg:flex pt-2 pb-20  lg:pt-24 lg:pb-28">
+      <h2 className="text-center py-16 lg:py-28 title-section-2">Alguns diferenciais da Xmonkey</h2>
+      <div className=" relative mx-3 space-y-6 lg:space-y-0 lg:flex pt-2 pb-20  lg:pt-8 lg:pb-28">
         <div className="lg:mx-64">
           <div className="bg-gradient-to-r from-primary-300 to-primary-100 lg:min-w-[730px] rounded-lg px-10 py-20 lg:px-16 lg:py-36">
             <div>
@@ -34,7 +34,7 @@ export function Differences(){
             </div>
           </div>
 
-          <div className="mt-8 lg:mt-0 lg:absolute lg:top-[160px]  bg-white shadow-2xl max-w-[830px] rounded-lg p-10 lg:ml-[660px] ">
+          <div className="mt-8 lg:mt-0 lg:absolute lg:top-[90px]  bg-white shadow-2xl max-w-[830px] rounded-lg p-10 lg:ml-[660px] ">
             <div>
               <div>
                 <h1 className="text-gradient text-left text-4xl lg:text-7xl font-extrabold">Marketing de resultato</h1>
