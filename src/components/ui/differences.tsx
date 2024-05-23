@@ -3,7 +3,7 @@ import Image from "next/image"
 import IconCheck from "/public/check.svg"
 
 import ImgAward1 from "/public/award-1.svg"
-import Link from "next/link"
+import {Link} from "react-scroll"
 
 export function Differences(){
   return(
@@ -74,7 +74,7 @@ export function Differences(){
         
       </div>
 
-      <Link href="#form" className="">   
+      <Link to="form" spy={true} smooth={true} offset={0} duration={500}> 
           <div className="mx-4 lg:mx-auto lg:mt-12 text-center rounded-lg pb-20" >
               <a href="#" title="" className="inline-flex mx-auto w-full text-center lg:w-[300px]  lg:ml-8 rounded-lg items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 bg-gradient-to-r from-primary-300 to-primary-100 hover:opacity-65" role="button">Quero vender mais</a>  
           </div>

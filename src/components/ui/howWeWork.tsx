@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "react-scroll";
 
 export function HowWeWork(){
   return(
@@ -43,7 +43,7 @@ export function HowWeWork(){
             </div>
         </div>
 
-        <Link href="#form">   
+        <Link to="form" spy={true} smooth={true} offset={0} duration={500}>   
             <div className="mx-auto mt-10 sm:items-center sm:space-x-8 text-center  rounded-lg">
                 <a href="#" title="" className="inline-flex mx-auto w-full text-center lg:w-[300px]  lg:ml-8 rounded-lg items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 bg-gradient-to-r from-primary-300 to-primary-100 hover:opacity-65" role="button">Quero vender mais</a>  
             </div>
