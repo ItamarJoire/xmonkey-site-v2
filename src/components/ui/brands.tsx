@@ -65,7 +65,7 @@ export function Brands(){;
        
         <Slide className="logos-slide font-['Lufga'] text-white font-extrabold tracking-widest">
           {
-            ImgBrands.map((item) => (
+            ImgBrands.map((item, index) => (
              <Image src={item.src} alt='' width={60} height={60} className='ml-24'/>
             ))
           }
