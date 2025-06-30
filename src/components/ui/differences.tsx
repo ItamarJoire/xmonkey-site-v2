@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import ImgAward1 from '/public/award-1.svg'
+import { Link } from 'react-scroll'
 import { CheckIcon } from 'lucide-react'
 
 const tiers = [
@@ -17,11 +18,12 @@ const tiers = [
     description:
       'A SparkVibe possui diversas franquias espalhadas pelo Brasil, oferecendo estratégias de marketing focadas em resultados concretos e mensuráveis.',
     features: [
-      'Finalista por 5 anos consecutivos RD Summit',
-      'Prêmio Digitalks',
+      'Unlimited products',
+      'Unlimited subscribers',
       'Advanced analytics',
-      'Content Marketing Awards',
-      'Social Media Marketing Awards'
+      'Dedicated support representative',
+      'Marketing automations',
+      'Custom integrations'
     ],
     featured: true
   }
@@ -33,7 +35,7 @@ function classNames(...classes: any) {
 
 export function Differences() {
   return (
-    <div className="relative isolate bg-gradient-to-tr from-[#1C1D1F]/40 to-[#1C1D1F]/60 px-6 py-24 sm:py-32 lg:px-8">
+    <div className="relative isolate bg-gradient-to-tr from-[#1C1D1F]/40 to-[#1C1D1F]/60 px-6 py-24 sm:py-22 lg:px-8">
       <div aria-hidden="true" className="absolute inset-x-0 -top-3 -z-10 transform-gpu overflow-hidden px-36 blur-3xl">
         <div
           style={{
@@ -103,6 +105,18 @@ export function Differences() {
           </div>
         ))}
       </div>
+      <Link to="form" spy={true} smooth={true} offset={0} duration={500}>
+        <div className="mx-4 mt-20 lg:mx-auto lg:mt-20 text-center rounded-lg pb-2">
+          <a
+            href="#"
+            title=""
+            className="inline-flex mx-auto w-full text-center lg:w-[300px]  lg:ml-8 rounded-lg items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 bg-gradient-to-r from-primary-300 to-primary-100 hover:opacity-65"
+            role="button"
+          >
+            Quero vender mais
+          </a>
+        </div>
+      </Link>
     </div>
   )
 }
