@@ -18,12 +18,11 @@ const tiers = [
     description:
       'A SparkVibe possui diversas franquias espalhadas pelo Brasil, oferecendo estratégias de marketing focadas em resultados concretos e mensuráveis.',
     features: [
-      'Unlimited products',
-      'Unlimited subscribers',
-      'Advanced analytics',
-      'Dedicated support representative',
-      'Marketing automations',
-      'Custom integrations'
+      'Finalista por 5 anos consecutivos no RD Summit',
+      'Prêmio Digitalks',
+      'Content Marketing Awards',
+      'Social Media Marketing Awards',
+      'Effie Awards Brasil'
     ],
     featured: true
   }
