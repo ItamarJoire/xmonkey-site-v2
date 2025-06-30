@@ -2,35 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
   background-color: #000000;
   /* font-family: "Inter", sans-serif; */
 }
 
-.typographyH1{
+.typographyH1 {
   @apply text-[68px] font-bold leading-[50px] text-white text-left lg:text-[106px];
 }
 
-.typographyH2{
+.typographyH2 {
   @apply text-[20px] font-normal text-white/90 text-left leading-7 lg:text-[30px] lg:leading-9;
 }
 
-.typographyH3{
+.typographyH3 {
   @apply text-[15px] font-normal text-white/50 text-left leading-6 lg:text-[20px] lg:leading-8;
 }
 
-.title-section{
+.title-section {
   @apply text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl;
 }
 
-.title-section-2{
+.title-section-2 {
   @apply text-2xl font-bold leading-tight text-white sm:text-3xl lg:text-4xl;
 }
 
 @layer utilities {
   .text-gradient {
     @apply bg-clip-text text-transparent;
-    background-image: linear-gradient(to right, #FF7205, #FFA122);
+    background-image: linear-gradient(to right, #ff7205, #ffa122);
   }
 }
 
@@ -57,52 +57,52 @@ body{
   overflow: hidden;
 }
 
-.effect-blur{
+.effect-blur {
   z-index: -50;
   width: 43px;
   height: 383px;
-  opacity: .79;
+  opacity: 0.79;
   filter: blur(67px);
-  background-color: #FF7205;
+  background-color: #ff7205;
   border-radius: 100%;
   position: absolute;
   bottom: -210px;
   right: 0px;
 }
 
-.effect-blur-2{
+.effect-blur-2 {
   z-index: -50;
   width: 393px;
   height: 183px;
-  opacity: .39;
+  opacity: 0.39;
   filter: blur(67px);
-  background-color: #FF7205;
+  background-color: #ff7205;
   border-radius: 100%;
   position: absolute;
   bottom: 60px;
   left: -390px;
 }
 
-.effect-blur-3{
+.effect-blur-3 {
   z-index: -50;
   width: 43px;
   height: 383px;
-  opacity: .79;
+  opacity: 0.79;
   filter: blur(67px);
-  background-color: #FF7205;
+  background-color: #ff7205;
   border-radius: 100%;
   position: absolute;
   bottom: 1110px;
   right: 0px;
 }
 
-.effect-blur-4{
+.effect-blur-4 {
   z-index: -50;
   width: 393px;
   height: 183px;
-  opacity: .39;
+  opacity: 0.39;
   filter: blur(67px);
-  background-color: #FF7205;
+  background-color: #ff7205;
   border-radius: 100%;
   position: absolute;
   bottom: 960px;
@@ -110,39 +110,39 @@ body{
 }
 
 @media (min-width: 1100px) {
-  .effect-blur{
+  .effect-blur {
     z-index: -50;
     width: 893px;
     height: 383px;
-    opacity: .69;
+    opacity: 0.69;
     filter: blur(317px);
-    background-color: #FF7205;
+    background-color: #ff7205;
     border-radius: 100%;
     position: absolute;
     bottom: 270px;
-    right: -280px;
+    right: -80px;
   }
-  
-  .effect-blur-2{
+
+  .effect-blur-2 {
     z-index: -50;
     width: 393px;
     height: 383px;
-    opacity: .49;
+    opacity: 0.49;
     filter: blur(217px);
-    background-color: #FF7205;
+    background-color: #ff7205;
     border-radius: 100%;
     position: absolute;
     bottom: 480px;
     left: -90px;
   }
-  
-  .effect-blur-3{
+
+  .effect-blur-3 {
     z-index: -50;
     width: 393px;
     height: 583px;
-    opacity: .39;
+    opacity: 0.39;
     filter: blur(167px);
-    background-color: #FF7205;
+    background-color: #ff7205;
     border-radius: 100%;
     position: absolute;
     top: 1020px;
@@ -167,9 +167,8 @@ body{
   background-color: #f0f0f0; /* cor da track */
 }
 
-:root{
-  --toastify-color-success: #FF7205;
+:root {
+  --toastify-color-success: #ff7205;
   --toastify-color-progress-success: var(--toastify-color-success);
   --toastify-icon-color-success: var(--toastify-color-success);
 }
-
